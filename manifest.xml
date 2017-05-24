@@ -1,0 +1,26 @@
+<package>
+  <description brief="This package provides the set of motion controllers for a ground robot">
+	motion_selector_2d
+  </description>
+  <author>Antonio Petitti</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/</url>
+  
+  <depend package="std_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="tf"/>
+  <depend package="move_base_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="actionlib"/>
+  <depend package="geometry_msgs"/>
+  <depend package="kdl"/>
+  <depend package="roscpp"/>
+  <depend package="roslib"/>
+  <depend package="tf"/>
+  <depend package="costmap_2d"/>
+  <depend package="base_local_planner"/>
+  <depend package="issia_baitah_msgs"/>
+
+</package>
